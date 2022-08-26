@@ -16,13 +16,13 @@ namespace BATCH1_DET_2022
         int pincode;
         int phoneno;
         int grosssal;
-        int pf;
+       
        
         
 
         //constructor - is a function used to init object data
         //has the same name as classname, no ret type
-        public EmployeeInformation(int erollno, string ename, string eaddress, int epin,int ephone,int gsal,int pf)
+        public EmployeeInformation(int erollno, string ename, string eaddress, int epin,int ephone,int gsal)
         {
             rollno = erollno; name = ename; address = eaddress;pincode = epin;phoneno = ephone; grosssal = gsal;
         }
