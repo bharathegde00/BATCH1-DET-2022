@@ -13,7 +13,7 @@ namespace BATCH1_DET_2022
         public string Surname { get; set; }
         public string Phone { get; set; }   
 
-        public string print()
+        override public string ToString()
         {
 
             return $"{Name}, Surname={Surname},Phone={Phone}";

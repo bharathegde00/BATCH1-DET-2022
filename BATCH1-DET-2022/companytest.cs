@@ -14,7 +14,7 @@ namespace BATCH1_DET_2022
            companydetails comp= new companydetails { name = "SSL", address = "Global City", phonenumber = "665453", faxnumber = "7654", website = "sonata-software.com", Manager = mgr };
 
 
-            Console.WriteLine(comp.Print());
+            Console.WriteLine(comp.ToString());
 
 
 

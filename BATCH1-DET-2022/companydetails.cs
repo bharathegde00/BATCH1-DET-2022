@@ -19,9 +19,9 @@ namespace BATCH1_DET_2022
 
         //constructor - is a function used to init object data
         //has the same name as classname, no ret type
-        public string Print()
+       override public string ToString()
         {
-            return $"Name={name},Address={address},Phone={phonenumber},Fax={faxnumber},Website={website},ManagerName={Manager.print()}";
+            return $"Name={name},Address={address},Phone={phonenumber},Fax={faxnumber},Website={website},ManagerName={Manager.ToString()}";
         }
 
     }
