@@ -19,11 +19,11 @@
     $('#test3').click(function(){  
      alert('ID test3 clicked and I will ' +
        'now turn off events for the div with an ID of test.');  
-     $('#test').off();  
+     $('#test').on();  
     }); 
     $('div').hover(function(){
-         $(this).css('background‐color', '#00FF99'); },
-    function(){
+         $(this).css('background‐color', '#00FF99');
+    
          $(this).css('background‐color', '#FFFFFF');
          });
          $("*").click(function(event){
