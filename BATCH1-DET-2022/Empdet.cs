@@ -11,7 +11,7 @@ namespace BATCH1_DET_2022
 
         public static void Main()
         {
-            Emp e = new Emp(22773, "Bharath", new DateOnly(2014, 08, 20));
+            Emp1 e = new Emp1(22773, "Bharath", new DateOnly(2014, 08, 20));
             Console.WriteLine($"Years of Experience is {e.GetYearsofExp()}");
         }
     }
