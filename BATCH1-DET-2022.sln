@@ -7,10 +7,6 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BATCH1-DET-2022", "BATCH1-D
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyClassLibrary", "MyClassLibrary\MyClassLibrary.csproj", "{8D966BDE-1F3A-49B0-8D84-1ADD34AF3C08}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyClassLibrary_Client", "MyClassLibrary_Client\MyClassLibrary_Client.csproj", "{25D0B39E-46B5-459A-AA0D-2247A02B6C53}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyClientLibraryTest", "MyClientLibraryTest\MyClientLibraryTest.csproj", "{1F51CA1E-40B9-4007-99AD-278F6F6CCFF8}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -25,14 +21,6 @@ Global
 		{8D966BDE-1F3A-49B0-8D84-1ADD34AF3C08}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8D966BDE-1F3A-49B0-8D84-1ADD34AF3C08}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8D966BDE-1F3A-49B0-8D84-1ADD34AF3C08}.Release|Any CPU.Build.0 = Release|Any CPU
-		{25D0B39E-46B5-459A-AA0D-2247A02B6C53}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{25D0B39E-46B5-459A-AA0D-2247A02B6C53}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{25D0B39E-46B5-459A-AA0D-2247A02B6C53}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{25D0B39E-46B5-459A-AA0D-2247A02B6C53}.Release|Any CPU.Build.0 = Release|Any CPU
-		{1F51CA1E-40B9-4007-99AD-278F6F6CCFF8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{1F51CA1E-40B9-4007-99AD-278F6F6CCFF8}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{1F51CA1E-40B9-4007-99AD-278F6F6CCFF8}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{1F51CA1E-40B9-4007-99AD-278F6F6CCFF8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
