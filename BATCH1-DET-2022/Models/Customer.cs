@@ -8,25 +8,18 @@ using System.Threading.Tasks;
 
 namespace BATCH1_DET_2022.Models
 {
-    [Table("Book")]
-    public class Book
+    [Table("Customer")]
+    public class Customer
     {
         [Key, DatabaseGenerated(DatabaseGeneratedOption.None)]
+        public int ID { get; set; }
+
+        [Required()]
+        public string Name { get; set; }
 
         [Required]
-        public int BookID { get; set; }
+        public int Age { get; set; }
 
-        [Required]
-        
-        public string BookName { get; set; }
-
-        
-        public string author { get; set; }
-
-        public int price { get; set; }
-
-       
-
-
+        public virtual ICollection<Order> Orders { get; set; } //navigation prop
     }
 }

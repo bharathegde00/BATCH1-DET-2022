@@ -25,13 +25,15 @@ namespace BATCH1_DET_2022.Data
             }
 
      public virtual DbSet<Book> Books { get; set; }
+     public virtual DbSet<Customer> Customers { get; set; }
+     public virtual DbSet<Order> Orders { get; set; }
 
-    protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
     {
         if (!optionsBuilder.IsConfigured)
         {
 
-            optionsBuilder.UseSqlServer("Server=6BRWQG2-SHEL\\SQLEXPRESS;Database=Bharath_Tsql_Training;Trusted_Connection=True;");
+            optionsBuilder.UseSqlServer("Server=6BRWQG2-SHEL\\SQLEXPRESS;Database=Bharath_Tsql_Training;Trusted_Connection=True;MultipleActiveResultSets=True");
         }
     }
         protected override void OnModelCreating(ModelBuilder modelBuilder)
@@ -42,6 +44,7 @@ namespace BATCH1_DET_2022.Data
                    .HasColumnName("BKprice")
                    .HasDefaultValue(200);
 
+            
         }
         public static void  Main()
         {

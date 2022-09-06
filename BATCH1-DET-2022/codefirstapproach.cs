@@ -13,11 +13,11 @@ namespace BATCH1_DET_2022
     {
         private static void Main()
         {
-            //AddNewBook();
+            AddNewBook();
             //removebook();
             // updatebook();
             //selectbook();
-            getallbooks();
+            //getallbooks();
             Console.ReadLine();
         }
 
@@ -25,8 +25,8 @@ namespace BATCH1_DET_2022
         {
             var ctx = new BookContext();
             Book book = new Book();
-            book.BookID = 5;
-            book.BookName = "Sql";
+            book.BookID = 6;
+            book.BookName = "Sqlgrgrgrrgrgrgrg";
             book.author = "Bill";
             book.price = 200;
 
